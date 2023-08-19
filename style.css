@@ -1,0 +1,286 @@
+:root{
+    --background-color: #202124;
+    --white-color: aliceblue;
+    --font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: var(--background-color);
+}
+
+/* top right css  start */
+
+header ul {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 3px 0;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.Gmail{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 13px;
+    font-family: var(--font-family)
+}
+
+.Images{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 13px;
+    font-family: var(--font-family)
+}
+
+span{
+    color: var(--white-color);
+}
+
+header ul li button{
+    background-color: #8ab4f8;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+    padding: 10px 26.5px 10px;
+    margin-right: 9px;
+}
+
+/*Animation effects start*/
+
+a:hover{
+    text-decoration: underline;
+}
+
+button:hover{
+background-color: #a1c1fc;
+}
+
+span:hover{
+    background-color: #303134;
+    border-radius: 50%;
+    cursor: pointer;
+    text-rendering: var(--white-color);
+}
+
+
+
+/* top right css end */
+
+/* Middle portion start */
+
+.middle-portion{
+    position: absolute;
+    top: 170px;
+    left: 660px;
+}
+
+.Google{
+    color: var(--white-color);
+    font-size: 85px;
+    margin-bottom: 23px;
+    font-family: 'Product Sans', sans-serif;
+}
+
+form{
+    position: relative;
+}
+
+.search{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.mic{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 9px;
+    left: 542px;
+    cursor: pointer;
+}
+
+.picture{
+    width: 30px;
+    height: 30px;
+    top: 9px;
+    left: 581px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.middle-portion{
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.searchbox{
+    width: 570px;
+    height: 46px;
+    border: 1px solid #5f6368;
+    background-color: var(--background-color);
+    border-radius: 25px;
+    padding-left: 54px;
+    caret-color: white;
+    color: white;
+
+}
+.bottom-2-buttons{
+    width: 350px;
+    margin: auto;
+    margin-top: 33px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.google-search{
+    background-color:
+    #303134;
+    border: 1px solid transparent;
+    font-size: 14px;
+    color: #e8eaed;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+.feeling-lucky{
+    background-color:#303134;
+    font-size: 14px;
+    color: #e8eaed;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Animation effects start */
+
+input:focus{
+    outline: none;
+}
+
+.google-search:hover{
+    border:1px solid 
+    #5f6368;
+    background-color:
+    #303134
+}
+
+.feeling-lucky:hover{
+    border:1px solid 
+    #5f6368;
+    background-color:
+    #303134
+}
+
+.searchbox:hover{
+    background-color: #303134;
+}
+
+.searchbox:hover{
+    border: 1px solid transparent;
+}
+
+/* Middle portion end */
+
+/* Footer start */
+
+.bottom{
+    display: flex;
+    height: 62px;
+    list-style: none;
+}
+footer{
+    list-style: none;
+    background-color: #171717;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+}
+
+footer ul li a{
+    color: #9aa0a6;
+    font-size: 14px;
+    display: flex;
+    list-style: none;
+}
+
+.about{
+    position: relative;
+    bottom: -47px;
+    left: -6px;
+    text-decoration: none;
+    font-family: var(--font-family)
+}
+.advertising{
+    position: relative;
+    bottom: -47px;
+    left: 24px;
+    text-decoration: none;
+    font-family: var(--font-family)
+}
+.business{
+    position: relative;
+    bottom: -47px;
+    left: 54px;
+    text-decoration: none;
+    font-family: var(--font-family)
+}
+.how-search-works{
+    position: relative;
+    bottom: -47px;
+    left: 84px;
+    color: #9aa0a6;
+    text-decoration: none;
+    font-family: var(--font-family)
+}
+.privacy{
+    position: relative;
+    left:1369.5px;
+    bottom: -47px;
+    text-decoration: none;
+    font-family: var(--font-family)
+}
+.terms{
+    position: relative;
+    bottom: -47px;
+    left: 1400px;
+    text-decoration: none;
+    font-family: var(--font-family)
+}
+.settings{
+    position: relative;
+    bottom: -47px;
+    left: 1430px;
+    text-decoration: none;
+    font-family: var(--font-family)
+}
+.dubai{
+    position: relative;
+    color: #9aa0a6;
+    font-size: 14px;
+    bottom: 0px;
+    left: -422px;
+    cursor: default;
+    text-decoration: none;
+    font-family: var(--font-family)
+}
